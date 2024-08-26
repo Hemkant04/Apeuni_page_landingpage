@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #056b5a;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 2;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#logo-container {
+  text-align: center; /* Center align the logo */
+  padding: 1rem; /* Padding around the logo */
+}
+
+.logo {
+  max-width: 100px; /* Adjust size as needed */
+  height: 100px; /* Maintain aspect ratio */
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+#gallery {
+    background-color: #f4f4f4;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap; /* Ensure the items wrap on smaller screens */
+}
+
+.gallery-item {
+    text-align: center; /* Center the text and buttons below the images */
+}
+
+.gallery-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ddd; /* Light grey border around images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease; /* Smooth transition for border color change */
+}
+
+.gallery-container img:hover {
+    border-color: #007bff; /* Change border color on hover */
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff; /* Button color */
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+#social {
+  background-color: #faf7f7;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between icons */
+}
+
+.social-media li {
+  margin: 0;
+}
+
+.social-media a {
+  display: block;
+}
+
+.social-media img {
+  width: 24px; /* Small size for social media icons */
+  height: 24px;
+  transition: opacity 0.3s ease;
+}
+
+.social-media img:hover {
+  opacity: 1; /* Slight change on hover */
+}
+footer {
+  background-color: #056b5a;
+  color: #fff;
+  text-align: center;
+  padding: 0.05rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
